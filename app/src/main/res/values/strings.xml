@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EffiDrive</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="past_trips">PAST TRIPS</string>
+    <string name="title_activity_view_trip">ViewTripActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="start_trip">Start Trip</string>
+    <string name="end_trip">End Trip</string>
+    <string name="duration">Duration</string>
+</resources>

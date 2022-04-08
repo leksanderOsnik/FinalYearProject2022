@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "28051375743",
+    "project_id": "effidrive-49025",
+    "storage_bucket": "effidrive-49025.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28051375743:android:01a2963672ad736acee14a",
+        "android_client_info": {
+          "package_name": "com.project.effidrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28051375743-tn72cjtqu259c44mdk7dm0fkfb9mfou8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.effidrive",
+            "certificate_hash": "2f4375fd95141929228c922c1ebe9e0d043cb529"
+          }
+        },
+        {
+          "client_id": "28051375743-g52nrjsaio6kghro8b3qt2nho52dupim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWaxKzmtrBQ9Yz-mXLGoGupszoG6CYd7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28051375743-g52nrjsaio6kghro8b3qt2nho52dupim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

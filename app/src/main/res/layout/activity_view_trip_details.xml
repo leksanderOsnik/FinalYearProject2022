@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewTripDetailsActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/tvCurrentAcceleration2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0 m/s²"
+        android:textSize="20sp"
+        map:layout_constraintEnd_toEndOf="@+id/tvAccelerationLabel2"
+        map:layout_constraintTop_toBottomOf="@+id/tvAccelerationLabel2" />
+
+    <TextView
+        android:id="@+id/tvAccelerationLabel2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Destination"
+        map:layout_constraintEnd_toEndOf="@+id/tvDistanceLabel"
+        map:layout_constraintTop_toTopOf="@+id/tvAccelerationLabel" />
+
+    <TextView
+        android:id="@+id/tvCurrentAcceleration"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:gravity="center"
+        android:text="0 m/s²"
+        android:textSize="20sp"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.501"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAccelerationLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Origin"
+        map:layout_constraintBottom_toTopOf="@+id/tvCurrentAcceleration"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.501"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/tvEfficiency"
+        map:layout_constraintVertical_bias="0.953" />
+
+    <TextView
+        android:id="@+id/tvCurrentSpeed"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0.0 km/h"
+        android:textSize="20sp"
+        map:layout_constraintStart_toStartOf="@+id/tvSpeedLabel"
+        map:layout_constraintTop_toBottomOf="@+id/tvSpeedLabel" />
+
+    <TextView
+        android:id="@+id/tvSpeedLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Speed"
+        map:layout_constraintStart_toStartOf="@+id/tvDurationLabel"
+        map:layout_constraintTop_toTopOf="@+id/tvAccelerationLabel" />
+
+
+    <TextView
+        android:id="@+id/tvDurationLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/duration"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map" />
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="24dp"
+        android:layout_weight="50"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.0"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        tools:context=".MapsActivity" />
+
+    <TextView
+        android:id="@+id/tvDistanceLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="Distance"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map" />
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0.0 km"
+        android:textSize="20sp"
+        map:layout_constraintStart_toStartOf="@+id/tvDistanceLabel"
+        map:layout_constraintTop_toBottomOf="@+id/tvDistanceLabel" />
+
+    <TextView
+        android:id="@+id/EfficiencyLabel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Efficiency"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.5"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map" />
+
+    <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textSize="20sp"
+        map:layout_constraintStart_toStartOf="@+id/tvDurationLabel"
+        map:layout_constraintTop_toBottomOf="@+id/tvDurationLabel" />
+
+    <TextView
+        android:id="@+id/tvEfficiency"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0.0"
+        android:textSize="25sp"
+        map:layout_constraintStart_toStartOf="@+id/EfficiencyLabel"
+        map:layout_constraintTop_toBottomOf="@+id/EfficiencyLabel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
