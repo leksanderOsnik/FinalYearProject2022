@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardJourneySummary"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:contentPadding="4dp"
+    app:cardBackgroundColor="@color/design_default_color_secondary_variant">
+
+
+    <TextView
+        android:id="@+id/tvOriginLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Origin " />
+
+<TextView
+android:id="@+id/tvOrigin"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:layout_marginLeft="20dp"
+android:text=" " />
+
+<TextView
+android:id="@+id/tvDestinationLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="70dp"
+android:layout_marginLeft="20dp"
+android:text="Destination" />
+
+<TextView
+android:id="@+id/tvDestination"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="90dp"
+android:layout_marginLeft="20dp"
+android:text=""
+    android:paddingBottom="30dp"/>
+
+<TextView
+android:id="@+id/tvRating"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="60dp"
+android:layout_marginLeft="280dp"
+android:textSize="18dp"
+android:text="" />
+
+<TextView
+android:id="@+id/tvDate"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:layout_marginLeft="110dp"
+android:text="Date:" />
+
+<TextView
+android:id="@+id/tvDateContent"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:layout_marginLeft="180dp"
+android:text="" />
+
+<TextView
+android:id="@+id/tvDuration"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="90dp"
+android:layout_marginLeft="110dp"
+android:text="Duration: " />
+
+    <TextView
+android:id="@+id/tvDurationContent"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="90dp"
+android:layout_marginLeft="180dp"
+android:text=" " />
+
+<TextView
+android:id="@+id/tvDistance"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="60dp"
+android:layout_marginLeft="110dp"
+android:text=" " />
+
+
+<TextView
+android:id="@+id/tvDistanceContent"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="60dp"
+android:layout_marginLeft="180dp"
+android:text="" />
+
+<TextView
+android:id="@+id/tvTripId"
+android:visibility="invisible"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:text=""
+    />
+
+</androidx.cardview.widget.CardView>

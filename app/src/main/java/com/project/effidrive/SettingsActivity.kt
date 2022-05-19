@@ -17,10 +17,9 @@ class SettingsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
         binding = ActivitySettingsBinding.inflate(layoutInflater)
-        val db = Firebase.firestore
         setContentView(binding.root)
+        val db = Firebase.firestore
         auth = FirebaseAuth.getInstance()
         binding.btnLogout.setOnClickListener{
             auth.signOut()
@@ -46,7 +45,7 @@ class SettingsActivity : AppCompatActivity() {
                     val docRef = db.collection("user")
                         .add(user)
                         .addOnSuccessListener{
-                            Toast.makeText(this, "User added", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Information Saved", Toast.LENGTH_SHORT).show()
                             val intent = Intent(this, MainActivity::class.java)
                             startActivity(intent)
                         }

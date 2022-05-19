@@ -10,10 +10,12 @@
         <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/activity_main_trip.xml" value="0.1524822695035461" />
         <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/activity_settings.xml" value="0.33" />
-        <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/activity_trips.xml" value="0.14564336372847012" />
-        <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/activity_view_trip_details.xml" value="0.5" />
+        <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/activity_trips.xml" value="0.22" />
+        <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/activity_view_trip_details.xml" value="0.32037037037037036" />
+        <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/card_journey_summary.xml" value="0.5" />
         <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/current_trip_activity.xml" value="0.33" />
         <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/dialog_details.xml" value="0.1" />
+        <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/fragment_journey_summary.xml" value="0.5265625" />
         <entry key="..\:/Users/aleks/Desktop/College/EffiDrive2/app/src/main/res/layout/maps_activity.xml" value="0.31354166666666666" />
       </map>
     </option>

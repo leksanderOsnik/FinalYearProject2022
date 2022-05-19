@@ -15,31 +15,31 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <TextView
-        android:id="@+id/tvCurrentAcceleration2"
+        android:id="@+id/tvDestination"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="0 m/s²"
         android:textSize="20sp"
-        map:layout_constraintEnd_toEndOf="@+id/tvAccelerationLabel2"
-        map:layout_constraintTop_toBottomOf="@+id/tvAccelerationLabel2" />
+        map:layout_constraintEnd_toEndOf="@+id/tvDestinationLabel"
+        map:layout_constraintTop_toBottomOf="@+id/tvDestinationLabel" />
 
     <TextView
-        android:id="@+id/tvAccelerationLabel2"
+        android:id="@+id/tvDestinationLabel"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Destination"
         map:layout_constraintEnd_toEndOf="@+id/tvDistanceLabel"
-        map:layout_constraintTop_toTopOf="@+id/tvAccelerationLabel" />
+        map:layout_constraintTop_toTopOf="@+id/tvOriginLabel" />
 
     <TextView
-        android:id="@+id/tvCurrentAcceleration"
+        android:id="@+id/tvOrigin"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="600dp"
         android:gravity="center"
-        android:text="0 m/s²"
+        android:text="0.0"
         android:textSize="20sp"
         map:layout_constraintEnd_toEndOf="parent"
         map:layout_constraintHorizontal_bias="0.501"
@@ -47,12 +47,12 @@
         map:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvAccelerationLabel"
+        android:id="@+id/tvOriginLabel"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Origin"
-        map:layout_constraintBottom_toTopOf="@+id/tvCurrentAcceleration"
+        map:layout_constraintBottom_toTopOf="@+id/tvOrigin"
         map:layout_constraintEnd_toEndOf="parent"
         map:layout_constraintHorizontal_bias="0.501"
         map:layout_constraintStart_toStartOf="parent"
@@ -60,7 +60,7 @@
         map:layout_constraintVertical_bias="0.953" />
 
     <TextView
-        android:id="@+id/tvCurrentSpeed"
+        android:id="@+id/tvAvgSpeed"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -76,7 +76,7 @@
         android:gravity="center"
         android:text="Speed"
         map:layout_constraintStart_toStartOf="@+id/tvDurationLabel"
-        map:layout_constraintTop_toTopOf="@+id/tvAccelerationLabel" />
+        map:layout_constraintTop_toTopOf="@+id/tvOriginLabel" />
 
 
     <TextView
